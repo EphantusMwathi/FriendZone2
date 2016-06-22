@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@color/bg_register"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:padding="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_register"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:padding="9dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:background="@color/white"
+                android:hint="First Name"
+                android:id="@+id/f_name"/>
+
+
+            <EditText
+                android:textAppearance="?android:textAppearanceLarge"
+                android:padding="9dp"
+
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:id="@+id/s_name"
+                android:hint="Second Name"/>
+
+
+
+
+            <EditText
+                android:textAppearance="?android:textAppearanceLarge"
+                android:padding="9dp"
+
+                android:layout_marginTop="20dp"
+                android:hint="Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:id="@+id/email"/>
+
+
+
+
+        <EditText
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="9dp"
+
+            android:layout_marginTop="20dp"
+            android:hint="Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:id="@+id/password"
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="9dp"
+
+            android:layout_marginTop="20dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:id="@+id/confirm_password"/>
+            <Button
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:background="@color/wallet_holo_blue_light"
+                android:layout_height="wrap_content"
+                android:text="Sign_up"
+                android:textColor="@color/white"
+                android:id="@+id/sign_up"
+                />
+            <Button
+                android:layout_marginTop="30dp"
+                android:text="login page"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:id="@+id/login_in"
+                android:background="@color/bg_register"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

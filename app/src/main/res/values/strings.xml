@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FriendZone</string>
+    <string name="action_settings">Settings</string>
+    <string name="Login"><u>Login</u>.</string>
+    <string name="btn_stop_location_updates">stop updates</string>
+    <string name="btn_start_location_updates">start updates</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_chat_room">ChatRoomActivity</string>
+
+</resources>

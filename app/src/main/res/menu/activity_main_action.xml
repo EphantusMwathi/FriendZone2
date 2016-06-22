@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/main_page"
+        android:icon="@drawable/contacts"
+        android:title="MainPage"
+        android:showAsAction="never"/>
+
+    <!-- Location Found -->
+    <item android:id="@+id/notifications"
+        android:icon="@drawable/notification"
+        android:title="notification"
+        android:showAsAction="never" />
+
+    <!-- Refresh -->
+    <item android:id="@+id/messages"
+        android:icon="@drawable/message"
+        android:title="messages"
+        android:showAsAction="never" />
+
+    <!-- Help -->
+    <item android:id="@+id/menufloat"
+        android:icon="@drawable/menu_2"
+        android:title="menu"
+        android:showAsAction="never"/>
+
+    <!-- Check updates -->
+
+
+
+</menu>

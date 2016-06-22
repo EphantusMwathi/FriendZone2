@@ -1,0 +1,68 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Edit First Name"
+            android:textAppearance="?android:textAppearance"
+            android:id="@+id/edit_fname"
+            android:shadowColor="@color/bg_register"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Edit Second Name"
+            android:textAppearance="?android:textAppearance"
+            android:id="@+id/edit_sname"
+            android:shadowColor="@color/bg_register"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Edit Email"
+            android:textAppearance="?android:textAppearance"
+            android:id="@+id/edit_email"
+            android:shadowColor="@color/bg_register"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="update"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:background="@color/wallet_holo_blue_light"
+            android:id="@+id/edit_update"/>
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

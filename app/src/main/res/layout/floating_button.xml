@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/action_bar"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:background="@drawable/back_icon"
+        android:padding="10dp">
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FriendZone"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_gravity="bottom"
+            android:layout_alignLeft="@+id/launcher_logo"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:background="@color/action_bar"
+        android:layout_gravity="bottom"
+        >
+
+        <ImageView
+
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20sp"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:src="@drawable/contacts"
+            android:layout_gravity="right"
+            android:layout_weight="0.02"
+            android:id="@+id/contacts"/>
+        <ImageView
+
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20sp"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:src="@drawable/notification"
+            android:layout_gravity="right"
+            android:layout_weight="0.02"
+            android:id="@+id/notification"/>
+        <ImageView
+
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20sp"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:src="@drawable/message"
+            android:layout_gravity="right"
+            android:layout_weight="0.02"
+            android:id="@+id/message"/>
+
+
+        <ImageView
+
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20sp"
+            android:layout_width="15dp"
+            android:layout_height="18dp"
+            android:src="@drawable/menu_2"
+            android:layout_gravity="right"
+            android:layout_weight="0.02"
+            android:id="@+id/menu_1"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#ffffffff" />
+
+    <LinearLayout
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+        android:background="@color/action_bar">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text2"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="logout"
+            android:id="@+id/b_logout"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

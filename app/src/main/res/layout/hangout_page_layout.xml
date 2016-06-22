@@ -1,0 +1,178 @@
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_marginTop="59dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            android:padding="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="My Hangout"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:background="@color/black"></LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:background="@color/black"></LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="7dp"
+                android:padding="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Hangout Name :: "/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:id="@+id/name"
+                    android:textColor="@color/purple"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:background="@color/black"></LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="7dp"
+                android:padding="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Hangout Email :: "/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:id="@+id/email"
+                    android:textColor="@color/purple"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:background="@color/black"></LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="7dp"
+                android:padding="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Hangout Location :: "/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:id="@+id/location"
+                    android:textColor="@color/purple"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="9dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Change Information"
+                    android:textColor="@color/white"
+                    android:padding="4dp"
+                    android:id="@+id/change_information"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:background="@color/wallet_holo_blue_light"/>
+
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Change Location"
+                    android:padding="4dp"
+                    android:id="@+id/change_location"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textColor="@color/white"
+                    android:background="@color/wallet_holo_blue_light"
+                    />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

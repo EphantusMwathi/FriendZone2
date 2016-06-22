@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_maps"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+   <LinearLayout
+       android:layout_marginTop="58dp"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       >
+
+<LinearLayout
+    android:padding="9dp"
+    android:background="@color/bg_register"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearance"
+        android:textColor="@color/white"
+        android:id="@+id/name"
+        android:textStyle="bold"
+        android:text="my name"/>
+
+
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAppearance="?android:textAppearance"
+        android:text="email"
+        android:textStyle="bold"
+        android:id="@+id/email"/>
+
+
+
+</LinearLayout>
+    <LinearLayout
+        android:padding="9dp"
+        android:background="@color/bg_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearance"
+            android:text="distance"
+            android:id="@+id/map_distance"/>
+
+
+        <TextView
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:text="Km"
+
+            android:textStyle="italic"
+            />
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearance"
+            android:text=""
+            android:id="@+id/map_block"/>
+    </LinearLayout>
+
+
+<fragment
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:name="com.google.android.gms.maps.MapFragment"
+    android:id="@+id/map_view"/>
+   </LinearLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/map_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+       android:layout_marginTop="140dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/map_list" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/map_message"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/map_message" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/map_poke"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="270dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/map_poke" />
+
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
